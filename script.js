@@ -1,7 +1,11 @@
-array=[2,4,5,6,7,10];
+let array=[];
 var sum = 0;
 
 function Start(){	
+let number=parseInt(prompt("How many numbers do you want to enter"));
+for (var i = 0;i<number;i++){
+	array[i]=parseInt(prompt("Please enter your numbers:"));
+}
 
 for (var i = 0; i <array.length;i++){
 	sum += parseInt(array[i]);
